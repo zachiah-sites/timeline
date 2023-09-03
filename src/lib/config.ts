@@ -13,7 +13,7 @@ const config = {
         ev("Joined the NIFB", 2014, 'jun'),
         ev("Started working for Max Minds LLC", 2021, 'apr'),
         ev("Started working for Incmix", 2021, "oct"),
-        // TODO: Started learning computer programming
+        ev('Started programming (pretty sure)', 2018, 'mar'),
         todayEv('Today'),
     ],
     title: "Zachiah's Life Timeline"
