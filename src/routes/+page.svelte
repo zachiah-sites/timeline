@@ -9,13 +9,17 @@
     $: size = Math.max(size, 20);
 </script>
 
+<svelte:head>
+	<title>{config.title}</title>
+</svelte:head>
+
 <div class="h-screen overflow-auto flex flex-col p-16">
     <div class="absolute top-8 right-8">
         <button class="bg-white rounded-lg px-4 py-1 text-black" on:click={() => size -= 10}>-</button>
         <button class="bg-white rounded-lg px-4 py-1 text-black" on:click={() => size += 10}>+</button>
     </div>
 	<div class="max-w-3xl mx-auto w-full">
-		<h1 class="pb-8 text-2xl">Zachiah's Life Timeline</h1>
+		<h1 class="pb-8 text-2xl">{config.title}</h1>
 		{#each years as year}
 			{@const yearEvents = config.events.filter((event) => event.time.year === year)}
 			<section class="relative" style="height: {size}px">
