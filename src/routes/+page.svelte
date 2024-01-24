@@ -18,7 +18,7 @@
 				<h2 class="text-lg">{year}</h2>
 
 				{#each yearEvents as yearEvent}
-					<div class="flex rounded-lg p-2 bg-slate-900 text-sm opacity-80">
+					<div class="flex flex-col sm:flex-row rounded-lg p-2 bg-slate-900 text-sm opacity-80">
 						<div class="mr-auto">
 							{#if yearEvent.time.tag !== 'year'}
 								{getMonthHumanReadable(yearEvent.time.month)}
