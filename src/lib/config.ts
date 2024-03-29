@@ -15,6 +15,8 @@ const config = {
         ev("Started working for Incmix", 2021, "oct"),
         ev('Started programming (pretty sure)', 2018, 'mar'),
         ev('Got my blue belt in BJJ', 2024, 'jan', 23),
+        ev('Moved to Spokane Valley', 2024, 'feb', 1),
+        ev('Last day working for CloudOne', 2024, 'mar', 29),
         todayEv('Today'),
     ],
     title: "Zachiah's Life Timeline"
