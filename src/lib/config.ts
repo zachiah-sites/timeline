@@ -16,7 +16,6 @@ const config = {
         ev('Started programming (pretty sure)', 2018, 'mar'),
         ev('Got my blue belt in BJJ', 2024, 'jan', 23),
         ev('Moved to Spokane Valley', 2024, 'feb', 1),
-        ev('Last day working for CloudOne', 2024, 'mar', 29),
         ev("Moved to Coeur d'Alene ID", 2024, 'jul', 1),
         todayEv('Today'),
     ],
